@@ -7,6 +7,11 @@
   font-style: normal;
 }
 
+body {
+  background-image: url(bg.png);
+}
+
+/* <navigation bar style section> */
 
 .navbar-container {
   display: grid;
@@ -141,4 +146,145 @@
 }
 .banner-img {
   margin-left: 110px; 
+}
+/* standard curriculum */
+
+header > h1 {
+  height: 57.5px;
+  width: 100%;
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.curriculum-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
+  width: 1158.61px;
+  height: 575px;
+  margin: 10px auto;
+  border: 3px solid black;
+}
+.kinder {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(222, 245, 255, 0.5);
+  border-radius: 18px;
+}
+
+.elementary {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 244, 220, 0.5);
+  border-radius: 18px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(242, 232, 255, 0.5);
+  border-radius: 18px;
+}
+
+.curriculum-container div img {
+  width: 136px;
+  height: 136px;
+  padding: 52px 32px 110px 110px;
+}
+
+.curriculum-container div h4{
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.curriculum-container div p{
+  font-size: 16px;
+  font-weight: medium;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+.curriculum-container div h6{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.Read-More-1{
+  color:rgba(100, 200, 255, 1) ;
+}
+.Read-More-2{
+  color:rgba(240, 170, 0, 1) ;
+}
+.Read-More-3{
+  color:rgba(242, 232, 255, 1);
+}
+
+/* orange icon style section */
+.orange-icon {
+  display: flex;
+  max-width: 100%;
+  max-height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* card style section  */
+
+header > h2 {
+  height: 57.5px;
+  width: 100%;
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.our-stories-container {
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.our-stories {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr 1fr);
+  width: 1158.61px;
+  height: 550px;
+  margin: 10px auto;
+  gap: 20px;
+  border: 3px solid black;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+
+.cards-1 h5{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+
+}
+.cards-1 p{
+  font-size: 16px;
+  font-weight: medium;
+  color: rgba(102, 102, 102, 1);
+}
+
+.size h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
 }
