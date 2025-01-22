@@ -328,6 +328,7 @@ footer {
 
 .footer-logo {
   display: grid;
+  margin-top: 123px;
   grid-template-columns: 1fr 1fr;
   max-width: 202px;
   max-height: 62px;
