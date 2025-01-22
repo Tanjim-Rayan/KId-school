@@ -99,3 +99,46 @@
   padding: 10px 60px;
 }
 
+/* Banner style section  */
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  width: 1158.61px;
+  height: 575px;
+  margin: 10px auto;
+  border: 3px solid black;
+}
+
+.banner-text h1 {
+  font-size: 56px;
+  font-weight: bold;
+  padding-top: 60px;
+  margin-bottom: 12px;
+  
+  
+}
+.banner-text p {
+  font-size: 20px;
+  font-weight: regular;
+  color:rgba(0, 0, 0, 1);
+  margin-bottom: 24px;
+}
+
+.banner-text button{
+  width: 197px;
+  height: 50px;
+  background-color: rgba(17, 17, 17, 1);
+  border-radius: 12px;
+}
+.banner-btn {
+  width: 103px;
+  height: 30px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: bold;
+}
+.banner-img {
+  margin-left: 110px; 
+}
