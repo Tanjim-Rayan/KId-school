@@ -7,18 +7,19 @@
   font-style: normal;
 }
 
+
 .navbar-container {
   display: grid;
   justify-content: center;
   max-width: 100%;
   max-height: 575px;
-  /* border: 3px solid black; */
+  border: 3px solid black;
 }
 
 .navbar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   max-width: 1160px;
   max-height: 62px;
 
@@ -76,7 +77,7 @@
   display: flex;
   justify-content: right;
   max-width: 197px;
-  max-height:45px;
+  max-height: 45px;
   justify-content: center;
   align-items: center;
 
@@ -85,13 +86,16 @@
 .nav-btns {
   background-color: rgba(254, 163, 1, 1);
   border-radius: 12px;
-  padding: 10px 10px;
+  padding: 6px 1px;
   /* margin-top: 8px; */
   margin-left: 170px;
 }
-.btn-text-1{
+
+.btn-text-1 {
 
   color: rgba(255, 255, 255, 1);
   font-size: 20px;
   font-weight: semibold;
+  padding: 10px 60px;
 }
+
