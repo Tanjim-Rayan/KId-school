@@ -90,7 +90,6 @@ body {
   background-color: rgba(254, 163, 1, 1);
   border-radius: 12px;
   padding: 6px 1px;
-  /* margin-top: 8px; */
   margin-left: 170px;
 }
 
@@ -101,6 +100,24 @@ body {
   font-weight: semibold;
   padding: 10px 60px;
 }
+
+/* navbar responsive  */
+@media screen and (max-width: 756px){
+    .hide {
+      display: none;
+    }
+    .navbar-container{
+      display: flex;
+      width: 390px;
+      height: 70px;
+      background-image: url(menu.png);
+      justify-content: space-evenly;
+    }
+}
+
+
+
+
 
 /* Banner style section  */
 
@@ -144,6 +161,23 @@ body {
 .banner-img {
   margin-left: 110px; 
 }
+
+@media screen and (max-width: 756px) {
+    .banner-img {
+      width: auto;
+      height: 725px;
+      display: flex;
+      flex-direction: column;
+      
+    }
+  
+}
+
+
+
+
+
+
 /* standard curriculum */
 
 header > h1 {
@@ -223,6 +257,20 @@ header > h1 {
 .Read-More-3{
   color:rgba(242, 232, 255, 1);
 }
+
+/* Standard curriculam responsive style  */
+
+@media screen and (max-width: 756px){
+
+.curriculum-container div {
+  display: grid;
+  justify-items: center;
+  grid-auto-columns: 1fr;
+}
+
+}
+
+
 
 /* orange icon style section */
 .orange-icon {
